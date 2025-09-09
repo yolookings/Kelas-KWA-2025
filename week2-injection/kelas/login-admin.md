@@ -1,4 +1,4 @@
-# Login Bender
+# Login Admin
 
 ## Link Resource
 
@@ -6,7 +6,7 @@ Bypass Login = https://youtube.com/shorts/LT4JZrtrazM?si=ZiliDvZT-KVUzDU2
 
 ## Jawaban + Bukti
 
-![login](../../img/login-bender)
+![login](../../img/login-admin/done.png)
 
 ### Step-by-step
 
