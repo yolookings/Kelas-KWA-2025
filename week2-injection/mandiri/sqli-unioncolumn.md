@@ -6,7 +6,7 @@ https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-mu
 
 ## Jawaban + Bukti
 
-![sql](../../img/sqli-unioncolumn)
+![sql](../../img/sqli-unioncolumn/done.png)
 
 ### Step-by-step
 
@@ -30,9 +30,15 @@ https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-mu
 
 4. lalu Tes UNION SELECT valid `/filter?category=Gifts'+UNION+SELECT+NULL,NULL--`
 
-![sql](../../img/sqli-unioncolumn)
+![sql](../../img/sqli-unioncolumn/4.png)
 
 5. gabungkan username dan password `/filter?category=Gifts'+UNION+SELECT+NULL,username||':password is:'||password+FROM+users--` Karena kita diminta menampilkan dua nilai dalam satu kolom, kita gunakan concatenation operator (||) di Oracle (atau CONCAT() di MySQL).
+
+![sql](../../img/sqli-unioncolumn/login.png)
+
+6. kemudian dapat respon sebagiamana gambar diatas dan tinggal masukkan ke login sesuai dengan username dan password nya.
+
+![sql](../../img/sqli-unioncolumn/done.png)
 
 ### Catatan
 
