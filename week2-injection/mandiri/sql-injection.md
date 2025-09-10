@@ -1,4 +1,4 @@
-# SQL Injection
+# SQL injection vulnerability allowing login bypass
 
 ## Link Resource
 

@@ -1,8 +1,8 @@
-# SQL Injection
+# SQL injection attack, querying the database type and version on Oracle
 
 ## Link Resource
 
-https://portswigger.net/web-security/sql-injection/lab-login-bypass
+https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-oracle
 
 ## Jawaban + Bukti
 
