@@ -12,7 +12,7 @@ https://portswigger.net/web-security/sql-injection/lab-login-bypass
 
 ![sql](../../img/sql-injection/before.png)
 
-1. ea
+1.
 
 ### Catatan
 
