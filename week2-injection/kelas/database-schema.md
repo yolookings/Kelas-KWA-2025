@@ -4,6 +4,8 @@
 
 https://juice-shop.herokuapp.com/#/score-board?categories=Injection&showDisabledChallenges=false
 
+https://pwning.owasp-juice.shop/companion-guide/latest/appendix/solutions.html#_retrieve_a_list_of_all_user_credentials_via_sql_injection
+
 ## Jawaban + Bukti
 
 ![login](../../img/database-schema/done.png)
@@ -24,7 +26,7 @@ https://juice-shop.herokuapp.com/#/score-board?categories=Injection&showDisabled
 
 ![database](../../img/database-schema/rapi.png)
 
-4. kemudian format menjadi raw agar lebih rapi dan kita dapat melihat dengan baik schema database dari juice shop
+4. kemudian format dari raw menjadi parsed agar lebih rapi dan kita dapat melihat dengan baik schema database dari juice shop
 
 ### Catatan
 
